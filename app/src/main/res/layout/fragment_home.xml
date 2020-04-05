@@ -10,5 +10,54 @@
         android:text="Home Fragment"
         android:textSize="30sp"
         android:layout_centerInParent="true" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:layout_gravity="center"
+        android:background="@drawable/dog"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+        android:layout_marginTop="60dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hunger"
+                android:textSize="30sp"
+                android:layout_marginLeft="30dp"/>
+
+            <ProgressBar
+                android:id="@+id/hungerBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exercise"
+                android:textSize="30sp"
+                android:layout_marginLeft="30dp"/>
+
+            <ProgressBar
+                android:id="@+id/exerciseBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+</LinearLayout>
 </RelativeLayout>

@@ -9,4 +9,5 @@
     <color name="fragmentSettingsColor">#518F4E</color>
     <color name="navMenuColour">#51E8CC</color>
     <color name="iconColor">#000000</color>
+    <color name="transparent">#00000000</color>
 </resources>

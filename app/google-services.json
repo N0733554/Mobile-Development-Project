@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "454342875118",
+    "firebase_url": "https://virtual-pet-app.firebaseio.com",
+    "project_id": "virtual-pet-app",
+    "storage_bucket": "virtual-pet-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454342875118:android:f492e649fc6d1ed6d020ff",
+        "android_client_info": {
+          "package_name": "com.example.virtual_pet_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454342875118-ujs6dfppdquumsldfhe02b6jjoh5adnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.virtual_pet_app",
+            "certificate_hash": "1a01c288b61bc54cada30ba080f974377830ad4c"
+          }
+        },
+        {
+          "client_id": "454342875118-qbgrohg9ltmhhq5v65in6n42f2de1925.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdt32sZ3gI6veS2etfAQoFE6o-Ly1QcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454342875118-qbgrohg9ltmhhq5v65in6n42f2de1925.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
